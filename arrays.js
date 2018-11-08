@@ -13,11 +13,11 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 }
 
 function addElementToEndOfArray(array, element) {
-  var array2 = [element, ...array]
+  var array2 = [...array, element]
   return array2
 }
 
-function destructivelyAddElementToBeginningOfArray(array, element) {
-  array.unshift(element)
+function addElementToEndOfArray(array, element) {
+  array.shift(element)
   return array
 }
