@@ -18,6 +18,6 @@ function addElementToEndOfArray(array, element) {
 }
 
 function addElementToEndOfArray(array, element) {
-  array.shift(element)
+  array.push(element)
   return array
 }
