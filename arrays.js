@@ -5,3 +5,7 @@ var chocolateBars = [
 function addElementToBeginningOfArray(a, e) {
   
 }
+
+function addElementToBeginningOfArray(a, e) {
+  
+}
